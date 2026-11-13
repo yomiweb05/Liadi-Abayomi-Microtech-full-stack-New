@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f4;;
+}
+
+header{
+    background-color: #8338EC   ;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+nav h2{
+    color: #FFBA08;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav ul li a:hover{
+    color: #FFBA08;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content{
+    padding: 15% 0 0 10%;
+}
+
+.right-content{
+    width: 30%;
+    padding: 5% 4% 0 0;
+}
+
+.right-content img{
+    width: 100%;
+    border-radius: 8%;
+}
+
+.hero h3{
+    padding-bottom: 15px;
+}
+
+.hero h1{
+    color: #FFBA08;
+    font-size: 50px;
+}
+
+.hero h4{
+    padding-bottom: 15px;
+}
+
+.hero p{
+    padding-bottom: 40px;
+}
+
+.connect-btn{
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #0A2472;
+    border-radius: 5px;
+}
+
+.connect-btn:hover{
+    background-color: #FFBA08;
+    color: #0A2472;
+}
+
+
+.about{
+    margin-top: 10%;
+    padding: 5% 0 10% 10%;
+    background-color: #EFE8DE;
+}
+
+.about h2{
+    text-align: center;
+    color: #0A2472;
+}
+
+.about p{
+    text-align: left;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.my-skill{
+    padding-top: 5%;
+}
+
+.my-skill h2{
+    text-align: center;
+    color: #0A2472;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding-top: 5%;
+}
+
+.img-content{
+    width: 8%;
+}
+
+.img-content h3{
+    text-align: center;
+}
+
+.img-content img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.my-goal{
+    padding-top: 10%;
+}
+
+.my-goal h2{
+    text-align: center;
+    color: #0A2472;
+}
+
+.my-goal p{
+    text-align: center;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.let-connect h2{
+    text-align: center;
+    color: #0A2472;
+    padding-top: 10%;
+}
+
+form{
+    width: 400px;
+    height: 350px;
+    background-color: #EFE8DE;
+    padding: 20px;
+    margin: 0 auto 5% auto;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.submit{
+    width: 100%;
+    padding: 10px;
+    background-color: #0A2472;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
